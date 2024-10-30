@@ -13,7 +13,7 @@ export default function Home() {
       <main className={styles.main}>  {/* Applying styles from the CSS module */}
         <h1>My YouTube Channel</h1>
         <p>In my free time I enjoy playing some videogames and recording my gameplay. I post that gameplay on YouTube and share it 
-          with my subscribers who I converse with everyday. Here are some of my newest videos that I'm showing you through a webhook. 
+          with my subscribers who I converse with everyday. Here are some of my newest videos that I&apos;m showing you through a webhook. 
         </p>
         <p>What I learned through making this webhook:
           

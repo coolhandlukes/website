@@ -20,7 +20,7 @@ export default function Home() {
         <p>One of my long-term goals is to use my technical skills to contribute to environmental sustainability. 
           With this in mind, I plan to further my education by obtaining a minor in Environmental Engineering one day. 
           My hope is to apply my knowledge of computer science to address critical environmental challenges, using technology 
-          to make a meaningful impact on our planet's future.</p>
+          to make a meaningful impact on our planet&apos;s future.</p>
         <p>Resume:</p>
         <h2>Personal Interests</h2>
         <p>In my free time, I enjoy a variety of activities that help me balance my work and personal development. I am 
