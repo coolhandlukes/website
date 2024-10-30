@@ -2,15 +2,13 @@
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
-
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
   justify-items: center;
-  min-height: 100svh;
+  min-height: 100vh;
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
@@ -21,7 +19,6 @@
     --gray-rgb: 255, 255, 255;
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
-
     --button-primary-hover: #ccc;
     --button-secondary-hover: #1a1a1a;
   }
@@ -32,6 +29,35 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+}
+
+.main ul {
+  list-style-position: inside;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 10%;
+  max-width: 80%;
+}
+
+.main a {
+  color: lightblue;
+}
+
+.main ul li {
+  text-align: left;
+}
+
+.main ul li:last-child {
+  padding-bottom: 20px;  
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+  text-align: center;
+}
+
+.main p, .main ul {
+  text-align: center;
+  padding: 0 20%;
 }
 
 .main ol {
@@ -62,6 +88,8 @@
 }
 
 .ctas a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   border-radius: 128px;
   height: 48px;
@@ -76,17 +104,6 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
-}
-
-a.primary {
-  background: var(--foreground);
-  color: var(--background);
-  gap: 8px;
-}
-
-a.secondary {
-  border-color: var(--gray-alpha-200);
-  min-width: 180px;
 }
 
 .footer {
@@ -105,7 +122,6 @@ a.secondary {
   flex-shrink: 0;
 }
 
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
